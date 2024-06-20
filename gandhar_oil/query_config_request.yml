@@ -1,0 +1,5 @@
+workspace_id: 
+erp_instance_id: 
+erp_type: orian
+caller: ONE_INTEGRATION
+caller_host: https://one-integration-sandbox-http-server.internal.cleartax.co # for one integration

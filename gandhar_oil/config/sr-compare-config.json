@@ -1,0 +1,10 @@
+{
+    "fields_to_compare": [],
+    "customer_input_filter": [],
+    "columns_mapping": {
+        "My GSTIN": "My GSTIN",
+        "Taxable Value": "Item Taxable Amount",
+        "Document Number": "Document Number",
+        "Document Date": "Document Date"
+    }
+}

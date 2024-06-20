@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sap
+    database: gandhar
+    schema: raw
+    tables: 
+      - name: sales

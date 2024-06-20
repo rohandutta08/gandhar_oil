@@ -1,0 +1,14 @@
+{
+    "baseUrl": "https://ingestionv2-sandbox-http.internal.cleartax.co",
+    "PURCHASE": {
+        "mode":"purchase",
+        "tenant": "MaxItc",
+        "custom_template_id": "60e5613ff71f4a7aeca4336b"
+    },
+    "SALES":{
+        "mode":"sales",
+        "tenant": "GSTSALES",
+        "custom_template_id":"618a5623836651c01c1498ad"
+    }
+
+}

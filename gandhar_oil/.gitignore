@@ -1,0 +1,13 @@
+__pycache__
+
+# Ignore all diff files
+diff/*
+# Except .gitkeep
+!diff/.gitkeep
+
+target/
+dbt_packages/
+logs/
+
+input/*.duckdb
+input/*.csv

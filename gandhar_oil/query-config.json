@@ -1,0 +1,488 @@
+{
+    "createdAt": "2024-01-18T06:57:09.829",
+    "updatedAt": "2024-02-14T08:37:56.593",
+    "createdBy": null,
+    "schemaVersion": "V1",
+    "config": {
+        "tables": [
+            {
+                "name": "outward_sales_register_clrtax",
+                "select": [
+                    {
+                        "alias": "b",
+                        "name": "COMP_NAME"
+                    },
+                    {
+                        "alias": "b",
+                        "name": "INVH_COMP_CODE"
+                    },
+                    {
+                        "name": "INVH_ACNT_YEAR",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "DIVISION",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SOH_TXN_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SOH_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SOH_DT",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "GST_NOO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "GST_RTE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "CGST_TOTAL",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SGUST_TOTAL",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "IGST_TOTAL",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "TRANS_TYPE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_TXN_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "TR_CODE_NAME",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "PORT_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "MONTH1",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_DT",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_CUST_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "CUST_NAME",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_FORM_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "HSN_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_FLEX_19",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "ITEM_IG_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVI_ITEM_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVI_ITEM_DESC",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "UOM_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "QTY",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "RATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SUB_ACNT_NAME",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "ITEM_TOTAL",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "CESS",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "P_F",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "TCS_TOTAL",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "FREIGHT",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INSR",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "DIS",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "TOTAL",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "TRANSPORT_NAME",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "VEHICAL_NAME",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "LR",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "FREIGHT_1",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "MRP_NONMRP",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_ANNOTATION",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "CCO_SM_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "GRN_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "GRN_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "ADDRESS",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "CITY_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "STATE_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "STATE_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "THROUGH_CUST",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVI_FLEX_11",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "STATUS",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "BILL_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "BILL_DATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "GST_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_SYS_ID",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_LOCN_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_DEL_LOCN_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "CUST_PARENT_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "PARENT_CUST_NAME",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SHIPPING_BILL_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SHIPPING_BILL_DT",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "DC_NO_DATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "ORDER_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "ITEM_ANLY_CODE_01",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "TYPE_OF_PACKING",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "DIS_QTY",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INVH_EXGE_RATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INR_RATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "BASE_UOM",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "EXP_LTR_KGS_QTY",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "EXP_LTR_KGS_RATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "TRANSPORTER",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "TRANSPORT_ID",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "EXPORT_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SHIPPING_BILL",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "PUR_RATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "IRN",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "EWAY_BILL_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "HEADER_BATCH",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "LICENSE_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "CR_USER_ID",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "PORT",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "VESSEL_NAME",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "REF_TXN_CODE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "REF_NO",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "REF_DT",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "CONSIGNEE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "BILL_TO_ADDRESS",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SHIP_TO_ADDRESS",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "BILL_TO_CITY",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "BILL_TO_STATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SHIP_TO_CITY",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SHIP_TO_STATE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SHIP_TO_GST",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "GST_RATE1",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SQ",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "GST_SQ1",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "SQ1",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "INSURANCE",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "GST_SQ",
+                        "alias": "b"
+                    },
+                    {
+                        "name": "REMARKS",
+                        "alias": "b"
+                    }
+                ],
+                "fromTable": {
+                    "name": "outward_sales_register_clrtax",
+                    "alias": "b"
+                },
+                "where": [
+                    {
+                        "booleanOperator": "AND",
+                        "listOfExpr": [
+                            {
+                                "expr": {
+                                    "column": {
+                                        "name": "INVH_ACNT_YEAR",
+                                        "alias": "b"
+                                    },
+                                    "operator": "=",
+                                    "value": [
+                                        "19"
+                                    ]
+                                }
+                            },
+                                {
+                                "booleanOperator": "AND"
+                            },
+                            {
+                                "expr": {
+                                    "column": {
+                                        "name": "INVH_DT",
+                                        "alias": "b"
+                                    },
+                                    "operator": ">=",
+                                    "value": [
+                                        "01-Apr-2023"
+                                    ]
+                                }
+                            },
+                                {
+                                "booleanOperator": "AND"
+                            },
+                            {
+                                "expr": {
+                                    "column": {
+                                        "name": "INVH_DT",
+                                        "alias": "b"
+                                    },
+                                    "operator": "<=",
+                                    "value": [
+                                        "01-Jan-2024"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

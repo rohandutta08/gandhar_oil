@@ -1,0 +1,26 @@
+enum_type,values,comment
+document_type,INV,
+document_type,CRN,
+document_type,DBN,
+exp_type,EXPORT_WITH_IGST,
+exp_type,EXPORT_UNDER_BOND,
+exp_type,SEZ_WITHOUT_IGST,
+exp_type,SEZ_WITH_IGST,
+exp_type,REGULAR,
+exp_type,SALE_FROM_BONDED_WH,
+bos_type,NIL_RATED,
+bos_type,EXEMPTED,
+bos_type,NONGSTSUPPLY,
+bos_type,SUPPLYFROMCOMPOSITIONDEALER,
+bos_type,UINHOLDER,
+module,FI,
+module,SD,
+amount_type,CGST,
+amount_type,SGST,
+amount_type,IGST,
+amount_type,CESS,
+amount_type,BASE,
+amount_type,DISC,Discount
+amount_type,INSF,Insurance & Freight
+amount_type,TCS,
+amount_type,RDIF,Round off

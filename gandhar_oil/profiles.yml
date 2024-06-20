@@ -1,0 +1,13 @@
+gandhar:
+  outputs:
+    dev:
+      type: duckdb
+      schema: s
+      path: output/output.duckdb
+      attach:
+        - path: input/input.duckdb
+          read_only: true
+          alias: raw
+      settings:
+        disabled_optimizers: join_order
+  target: dev

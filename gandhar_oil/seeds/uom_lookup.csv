@@ -1,0 +1,21 @@
+internal_uom,gstin_uom
+Box,BOX-BOX 
+Bunch,BUN-BUNCHES 
+Grams,GMS-GRAMMES 
+Kilogram,KGS-KILOGRAMS 
+Count,NOS-NUMBERS
+Litres,OTH-OTHERS
+Tray,OTH-OTHERS
+Pack,PAC-PACKS
+Per piece,PCS-PIECES
+Piece,PCS-PIECES
+kg,KGS-KILOGRAMS
+bunch,BUN-BUNCHES
+pc,PCS-PIECES
+piece,PCS-PIECES
+pack,PAC-PACKS
+count,NOS-NUMBERS
+pieces,PCS-PIECES
+pcs,PCS-PIECES
+count,NOSS-NUMBERS
+Litres,LTR-OTHERS

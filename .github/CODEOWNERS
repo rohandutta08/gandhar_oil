@@ -1,0 +1,16 @@
+# CODEOWNERS
+
+# Unassigned files and folders owned by Shriram Bhat
+/* @shriram-bhat-cleartax
+
+# Customer-specific folders owned by different developers
+/enpro/* @NotADev137
+/grasim/* @Srishti-clear
+/kandui/* @NotADev137
+/msaeroafs/* @imgksingh
+/sapphire/* @Anks
+
+# Makefiles owned by Shriram Bhat
+**/Makefile @shriram-bhat-cleartax
+
+/framework/* @vaibhavkhantwalclear @vishraman @febinct @dinesh1106

@@ -1,0 +1,15 @@
+{
+    "fields_to_compare": [],
+    "customer_input_filter": [],
+    "columns_mapping": {
+        "Supplier GST No.": "Supplier GSTIN",
+        "Inv. No./BOE": "Document Number",
+        "Invoice Date": "Document Date",
+        "Document No.": "Voucher Number",
+        "Posting Date": "Voucher Date",
+        "Taxable Value": "Item Taxable Amount",
+        "Central GST": "CGST Amount",
+        "UT GST": "SGST Amount",
+        "Integrated GST": "IGST Amount"
+    }
+}
